@@ -7,7 +7,7 @@ PATH="/opt/maven3/bin:$PATH"
 stages{
 stage("Git checkout"){
 steps{
-git credentialsid: 'github',url: 'https://github.com/Abdul1223/Abdul1223-Pipeline.git'
+git credentialsId: 'git-cred', url: 'https://github.com/Abdul1223/Abdul1223-Pipeline.git'
   }
 }
 stage("Maven Build"){
