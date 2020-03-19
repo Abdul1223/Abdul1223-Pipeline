@@ -12,7 +12,7 @@ git credentialsId: 'git-cred', url: 'https://github.com/Abdul1223/Abdul1223-Pipe
 }
 stage("Maven Build"){
 steps{
-sh "mvn clean package "
+sh "mvn clean package"
      }
   }
 }
